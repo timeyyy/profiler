@@ -1,0 +1,17 @@
+# Add libraries
+# -lib hxSet
+-lib haxelow
+
+# -main TestProfiler
+# -neko test_profiler.n
+
+# --next
+
+# -main testbackend
+# -neko test_backend.n
+
+# --next
+
+-main TestPersist
+-neko test_persist.n
+

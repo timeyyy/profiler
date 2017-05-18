@@ -1,0 +1,12 @@
+# Add directory to look for source files
+-cp profiler
+
+# Add libraries
+-lib haxelow
+
+# These are the classes we wish to export
+# hxrtflib.Hxrtflib
+
+-neko profiler.n
+
+-main Profiler
